@@ -1,0 +1,59 @@
+
+.boton-inicio{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    height: 50px;
+    width: 130px;
+    text-align: center;
+}
+
+
+
+
+.imagenPrincipal-inicio {
+    position: relative; 
+    width: 100%;
+    height: 900px;
+    background-image: url('Imagenes/pexels-cottonbro-5195619\(1\).jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    justify-content: left; 
+    align-items: center; 
+    opacity: 60px;
+}
+
+.contenidoHome{
+    margin-left: 100px;
+}
+
+.contenidoHome h2{
+    padding: 20px; /* Espaciado interno */    
+    color: white; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados opcional */
+    font-size: 70px;
+    font-family: Koh Santepheap;
+}
+
+.contenidoHome h3{
+    padding: 20px; /* Espaciado interno */   
+    color: white; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados opcional */
+}
+
+.contenidoHome button{  
+    text-align: center; /* Centra el texto */
+    color: white; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados opcional */
+    background-color: #A87B05;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    margin-left: 70px;
+}
+
