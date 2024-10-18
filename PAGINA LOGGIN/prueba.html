@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla Dividida con Imagen</title>
+    <style>
+        /* Estilos para la estructura principal */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex; /* Para crear la división en columnas */
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+        }
+
+        /* Menú izquierdo */
+        .menu {
+            background-color: #333; /* Fondo gris oscuro */
+            width: 25%; /* Ocupa el 25% de la pantalla */
+            color: white; /* Color del texto */
+            padding: 20px; /* Espacio interno */
+            box-sizing: border-box; /* Incluir padding en el tamaño total */
+        }
+
+        /* Elementos del menú */
+        .menu ul {
+            list-style-type: none; /* Quita los puntos de la lista */
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin: 20px 0; /* Espaciado entre los elementos del menú */
+        }
+
+        .menu ul li a {
+            color: white;
+            text-decoration: none; /* Quita el subrayado de los enlaces */
+            font-size: 18px;
+        }
+
+        .menu ul li a:hover {
+            text-decoration: underline; /* Efecto hover */
+        }
+
+        /* Contenedor derecho con imagen de fondo */
+        .contenedor-derecho {
+            background-image: url('./imagenes/imagenFondoLoggin.jpg'); /* Cambia esta URL por la imagen que desees */
+            background-size: cover; /* La imagen cubre todo el contenedor */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            width: 75%; /* Ocupa el 75% de la pantalla */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú izquierdo -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#">¿Qué hacemos?</a></li>
+            <li><a href="#">Rutas</a></li>
+            <li><a href="#">Clubes</a></li>
+            <li><a href="#">Lupa</a></li>
+            <li><a href="#">Nuevos usuarios</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor derecho con imagen de fondo -->
+    <div class="contenedor-derecho">
+        <!-- Contenido vacío -->
+    </div>
+
+</body>
+</html>
